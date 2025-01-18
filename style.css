@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    /* background-color: rgb(205, 199, 199); */
+    color: white;
+    background-image: url("https://t3.ftcdn.net/jpg/03/23/88/08/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg");
+}
+.title{
+    margin: auto;
+    margin-top: 20px;
+    width: fit-content;
+    background-color: rgb(5, 5, 5);
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 0.9rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    border-radius: 40% 50% 0% 30%;
+    background-color: #d95980;
+}
+
+.yellow{
+    border-radius: 30% 0% 40% 50%;
+    background-color: #f99b45;
+}
+
+.green{
+    border-radius: 50% 40% 30% 0%;
+    background-color: #63aac0;
+}
+
+.purple{
+    border-radius: 0% 30% 40% 50%;
+    background-color: #819ff9;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
+
+@media (max-width: 500px){
+    .btn{
+        height: 130px;
+        width: 130px;
+        margin: 0.3rem;
+    }
+}
