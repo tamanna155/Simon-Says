@@ -1,4 +1,6 @@
 # Simon Says Game
+![image](https://github.com/user-attachments/assets/edd12770-a34f-4ca8-9626-67e1617bd535)
+
 This project is a simulation of the classic memory game Simon Says, built using HTML, CSS, and JavaScript. The game tests and trains the player's memory by requiring them to replicate an increasingly complex sequence of lights and sounds.
 
 ## Technologies Used
